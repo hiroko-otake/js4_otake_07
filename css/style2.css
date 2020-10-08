@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  height:60px;
+  background-color: red;
+  position: relative;
+}
+
+.header p {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translate(-2%, -50%);
+  -webkit-transform: translate(-2%, -50%);
+  -ms-transform: translate(-2%, -50%);
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.form {
+  height: 125px;
+  background-color: white;
+}
+
+.text {
+  padding: 25px 0 0 0;
+}
+
+.form p {
+  font-size: 2.5rem;
+  text-align: center;
+}
